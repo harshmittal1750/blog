@@ -1,0 +1,22 @@
+body {
+  background-image: linear-gradient(to bottom, #000000, #1e004e);
+  height: 100vh;
+  width: 100%;
+}
+
+.c-borders {
+  border: solid 1px #ff006c;
+  width: 520px;
+  height: 400px;
+  content: "";
+  margin: 10px;
+  flex: auto;
+  display: block;
+
+  position: absolute;
+
+  left: 555px;
+  top: 261.5px;
+
+  border: 1px solid #000000;
+}
