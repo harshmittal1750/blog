@@ -6,7 +6,7 @@
 
 body {
   background-image: linear-gradient(to bottom, #000000, #1e004e);
-  height: 100vh;
+  height: 95vh;
   width: 100%;
 }
 
@@ -16,7 +16,8 @@ body {
 }
 
 .error-404 {
+  margin-top: 1rem;
   text-align: center;
-  background: white;
+  color: #ff006c;
   font-size: 3rem;
 }
