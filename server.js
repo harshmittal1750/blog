@@ -17,6 +17,9 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/contact", (req, res) => {
+  res.render("contactus");
+});
 
 app.get("*", (req, res) => {
   res.render("404error", {
