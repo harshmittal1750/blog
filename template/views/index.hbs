@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 {{>header}}
-<link rel="stylesheet" href="/public/css/bootstrap.min.css">
-<link rel="stylesheet" href="/public/css/style.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <body>
   <header>
@@ -15,16 +15,18 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-4 top-col"> </div>
-      <div class="col-12 col-md-4 top-col"></div>
+      <div class="col-12 col-md-4 top-col p-0 d-flex align-items-center">
+        {{>carousel}}
+
+      </div>
       <div class="col-12 col-md-4 top-col"></div>
     </div>
   </div>
-  {{>carasoul}}
 
   {{>footer}}
 
-  <script src="public/js/bootstrap.bundle.min.js"></script>
-  <script src="public/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
